@@ -1,5 +1,4 @@
-torch==2.2.0  # or a version that is available
-torchvision==0.15.0  # make sure this matches the torch version
-transformers==4.30.0
-Pillow==9.2.0
+tensorflow
+transformers
+Pillow
 streamlit
