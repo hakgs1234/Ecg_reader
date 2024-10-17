@@ -5,7 +5,7 @@ from transformers import ViTForImageClassification, ViTImageProcessor
 import tensorflow as tf
 
 # Load the Hugging Face model and image processor
-model_name = "adilsaleem/ecg-image-multilabel-classification"  # Replace with your chosen model
+model_name = "adilsaleem/ecg-image-multilabel-classification"  # Verify this model name
 processor = ViTImageProcessor.from_pretrained(model_name)
 model = tf.keras.models.load_model('path/to/your/model')  # Ensure you have the TensorFlow model
 
